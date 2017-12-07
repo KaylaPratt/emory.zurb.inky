@@ -16,7 +16,7 @@
   },
   "mail": {
     "to": [
-      "example@domain.com"
+      "noreply@emory.edu"
     ],
     "from": "Company name <info@company.com",
     "smtp": {

@@ -26,7 +26,6 @@ a {color:$link-color}
 
 #banner-logo {
     width: 100%;
-    display: block;
     >img {
         padding: 5px 0 5px 15px;
     }
@@ -87,13 +86,18 @@ hr {
     }
 }
 
-// Winter Holiday 2017 Styles
-@import url('https://fonts.googleapis.com/css?family=Tangerine');
-.holidayHeading {
-    color:$warning-color;
-    font-family: 'Tangerine', 'Times New Roman', serif;
-    font-size:60px
+// Gold border trim
+.border-top-gold,
+.border-right-gold,
+.border-bottom-gold,
+.border-left-gold {
+    border-style:double;
+    border-color:$warning-color
 }
+.border-top-gold {border-top:8px}
+.border-right-gold {border-right:8px}
+.border-bottom-gold {border-bottom:8px}
+.border-left-gold {border-left:8px}
 
 @media(max-width:610px) {
     .grid {
